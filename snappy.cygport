@@ -11,8 +11,8 @@ instead, it aims for very high speeds and reasonable compression."
 HOMEPAGE="https://github.com/google/snappy/"
 SRC_URI="https://github.com/google/snappy/archive/${VERSION}/snappy-${VERSION}.tar.gz"
 PATCH_URI="
-	https://src.fedoraproject.org/cgit/rpms/snappy.git/plain/snappy-gtest.patch
-	https://src.fedoraproject.org/cgit/rpms/snappy.git/plain/snappy-version-macros.patch
+	https://src.fedoraproject.org/rpms/snappy/raw/master/f/snappy-gtest.patch
+	https://src.fedoraproject.org/rpms/snappy/raw/master/f/snappy-version-macros.patch
 "
 
 PKG_NAMES="libsnappy1 libsnappy-devel"
